@@ -1,0 +1,19 @@
+What is a gitignore file and what should it include for a Java project?
+Typically, a local.gitignore file is put in the project's root directory. Additionally, you can make a global.gitignore file that will be ignored by all of your Git repositories.
+
+*.class
+*.log
+*.clxt
+*.jar
+*.war
+*.nar
+
+
+What does fast-forward in git mean?
+When there is a straight line connecting the source branch and the target branch, fast forward merge can be used.
+
+Why should you have different branches?
+Each developer's work can be separated from others' through branching out from the original code base.This can be done using branching
+
+In a project how many remote Git repositories do you usually have?
+Basically there will be 1 remote repo. If u want u can create 'n' no.of local repos by cloning
